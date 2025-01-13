@@ -253,13 +253,13 @@
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>Teraform</span> <span class="pull-right">80%</span>
+									<span>Jenkins</span> <span class="pull-right">90%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 
-									<span>Grafana</span> <span class="pull-right">80%</span>
+									<span>Git & GitHub</span> <span class="pull-right">100%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
 											aria-valuemax="100"></div>
@@ -288,8 +288,8 @@
 									<li class="d-flex"><span>Domain:</span> <span>IT & Computer </span></li>
 									<!-- <li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering</span></li> -->
 									<li class="d-flex"><span>Language:</span> <span>English, Hindi,Marathi</span></li>
-									<li class="d-flex"><span>DevOps Tools:</span> <span>Docker,Kuberneties,Ansible,Teraform,Git/GitHub </span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>Cloud, Git, CI/CD , Elastic BeanStalk Pipeline ,ECS </span></li>
+									<li class="d-flex"><span>DevOps Tools:</span> <span>Docker,Kuberneties,jenkins,Git/GitHub,Helm </span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Cloud, Git, CI/CD ,ECS </span></li>
 									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, Playing Cricket</span></li>
 									
 								</ul>
@@ -393,7 +393,7 @@
 			<div class="col-md-7 heading-section text-center ftco-animate">
 			  <h1 class="big big-2">Projects</h1>
 			  <h2 class="mb-4">Projects</h2>
-			  <p>Below are the sample DevOps projects on Docker, Jenkins, Python, Git/GitHub, DockerHub & Aws.</p>
+			  <p>Below are the sample DevOps projects on Docker, Jenkins, Python, Git/GitHub, DockerHub ,Helm,Kubernetie& Aws.</p>
 			</div>
 		  </div>
 		  <div class="row d-flex">
@@ -403,9 +403,36 @@
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="  ">Notes App Deployment usin AWS & Docker</a></h3>
-				  <p> Deployed a Notes application using a declarative Jenkins pipeline, Docker, and AWS. </p>
+				  <h3 class="heading"><a href="  ">2-Tier Application Deployment Project</a></h3>
+				  <p> <b>Overview:-</b> This project demonstrates the deployment of a 2-tier application architecture, comprising a Flask-based web application and a MySQL database, on AWS using Kubernetes and Helm. The focus of this project was to integrate DevOps tools and techniques to automate the deployment pipeline while ensuring scalability and reliability.</p>
+				  <p><b>Key Components</b></p>
+				  <p><b>1.GitHub:</b>
+                       Source code and version control for the Flask application and database configuration files.</p>
+                  <p><b>2.Flask:</b>
+					Web application framework used to build the front-end and back-end of the application.</p>	
+				 <p><b>3.MySQL Database:</b> 
+					Relational database used to store application data.
+				</p>
+				<p><b>4.Docker:</b>Containers created for both the Flask application and the MySQL database to ensure environment consistency.</p>			
+				<p><b>5.DockerHub:</b>Hosted the Docker images for both tiers of the application.
+				</p>
+				<p><b>6.Kubernetes (K8s):</b>Orchestrated the deployment of the Docker containers on a Kubernetes cluster for scalability and high availability.
+				</p>	
+				<p><b>7.Helm:</b>Deployed the application on Kubernetes using Helm charts to simplify and manage the deployment process.</p>
+				<p><b>8.AWS:</b>Cloud platform used to deploy and manage the Kubernetes cluster.
+				</p>
+				<p><b>Workflow:</b></p>
+				<p>1.Developed and containerized the Flask application and MySQL database.</p>
+				<p>2.Pushed Docker images to DockerHub for accessibility.</p>
+				<p>3.Created a Kubernetes cluster on AWS to deploy the application.</p>
+				<p>4.Utilized Helm charts for managing Kubernetes configurations and deployments.</p>
+				<p>5.Ensured seamless integration between the Flask application and MySQL database in the cluster.</p>
+				<b>Skills and Tools:-</b>
+				<p><b>Tools:-</b>Docker, Kubernetes, Helm, DockerHub, AWS</p>
+				<p><b>Concepts:-</b>Containerization, Orchestration, 2-Tier Architecture, CI/CD Pipelines</p>
+				<p><b>Outcome:-</b>The successful deployment of a fully functional 2-tier application demonstrates my ability to integrate software development and cloud technologies effectively, ensuring scalability and efficiency.</p>
 				</div>
+
 			  </div>
 			</div>
 			<div class="col-md-4 d-flex ftco-animate">
@@ -414,13 +441,37 @@
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href=""></a>Two-Tier Flask App with
-					  Docker</h3>
-				  <p>Developed a twotier Flask application by cloning a GitHub repository.
-					  o Created a Dockerfile and set up two containers:
-					  one for the Flask app and one for MySQL.
-					  o Connected the containers within a single network and pushed the Docker images to Docker Hub.
+				  <h3 class="heading"><a href=""></a>Three-Tier Application Deployment on AWS EKS</h3>
+				  <p><b>Overview:-</b>This project showcases the deployment of a three-tier application (ReactJS front-end, Node.js back-end, and MongoDB database) using Amazon Elastic Kubernetes Service (EKS). The primary goal was to practice deploying a full-stack application using DevOps tools and modern cloud infrastructure.
 				  </p>
+				  <b>Key Components:-</b>
+				  <p><b>1.ReactJS:</b>Front-end layer for user interaction.
+				  </p>
+				  <p><b>2.Node.js:</b>Back-end layer to handle application logic and API requests.</p>
+				  <p><b>3.MongoDB:</b>Database layer for persistent data storage.</p>
+				  <p><b>4.DevOps Tools and Concepts:</b></p>
+				  <p><b>Docker:</b>Containerized each application component for consistency and portability.</p>
+				  <p><b>AWS ECR:</b>Used to store Docker images for deployment.</p>
+				  <p><b>Kubernetes:</b>Orchestrated containers using AWS EKS for scalability and reliability.</p>
+				  <p><b>Application Load Balancer (ALB):</b>Distributed traffic among Kubernetes pods.</p>
+				  <p><b>Ingress Controller: </b>Managed routing within the Kubernetes cluster.</p>
+				  <b>Purpose</b>
+				  <p>-The source code for the application was obtained from GitHub.</p>
+				  <p>-The focus was on practicing and mastering the deployment of a three-tier application using DevOps tools like Docker, Kubernetes, and AWS services.</p>
+				  <p><b>Workflow</b></p>
+				  <p><b>1.Containerization:</b>Built Docker images for the ReactJS front-end, Node.js back-end, and MongoDB.</p>
+				  <p><b>2.Image Hosting:</b>Pushed the Docker images to AWS Elastic Container Registry (ECR).</p>
+				  <p><b>3.Cluster Setup: </b>Configured an AWS EKS cluster for container orchestration.</p>
+				  <p><b>4.Deployment: </b> Deployed the application components to the Kubernetes cluster using YAML manifests and Helm charts.</p>
+				  <p><b>5.Traffic Management:</b>Configured an Ingress Controller and integrated an Application Load Balancer for efficient traffic routing.</p>
+				  <p><b>6.Testing:</b>Verified functionality and ensured smooth interaction across all tiers</p>
+				  <p><b>Skills and Tools Practiced</b></p>
+				  <p><b>DevOps Tools:</b>Docker, Kubernetes, Helm, AWS ECR, AWS EKS</p>
+				  <p><b>Cloud Concepts:</b>Application Load Balancing, Traffic Routing, Container Orchestration</p>
+				  <p><b>Programming and Deployment: </b>Managing YAML manifests, Helm charts, and Kubernetes services</p>
+				  <p><b>Outcome</b>This project provided hands-on experience in deploying a three-tier application using a robust DevOps workflow. It strengthened understanding of containerization, orchestration, and AWS cloud infrastructure.</p>
+
+
 				</div>
 			  </div>
 			</div>
@@ -479,7 +530,7 @@
 			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 			  <div class="block-18">
 				<div class="text">
-				  <strong class="number" data-number="10">0</strong>
+				  <strong class="number" data-number='2'">0</strong>
 				  <span>Projects</span>
 				</div>
 			  </div>
@@ -580,10 +631,10 @@
 					  <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
 						<li class="ftco-animate normal-txt">Find me on  </li>
 						<!-- <li class="ftco-animate"><a href=""><span class="icon-youtube"></span></a></li> -->
-						<li class="ftco-animate"><a href="https://www.linkedin.com/in/yash-kale-5a327727a/"><span class="icon-linkedin"></span></a></li>  
+						<li class="ftco-animate"><a href="https://www.linkedin.com/in/siddheshwar-tadage-5b7896249/"><span class="icon-linkedin"></span></a></li>  
 						<!-- <li class="ftco-animate"><a href=""><span class="icon-twitter"></span></a></li>
 						<li class="ftco-animate"><a href=""><span class="icon-facebook"></span></a></li> -->
-						<li class="ftco-animate"><a href="https://www.instagram.com/_yashuuu_96k_/"><span class="icon-instagram"></span></a></li>
+						<li class="ftco-animate"><a href="https://www.instagram.com/siddhesh_tadage/"><span class="icon-instagram"></span></a></li>
 					  </ul>
 				  <br>
 			 </div>
@@ -618,6 +669,7 @@
 	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="js/jquery.waypoints.min.js"></script>
 	<script src="js/jquery.stellar.min.js"></script>
+	
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/aos.js"></script>
